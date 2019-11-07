@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jacob Lebowitz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel='stylesheet' href='{{ url_for("static", filename="css/style.css") }}'>
+  <style>
+    body {
+      background-color: #0a192f;
+    }
+
+    .background {
+      background-color: #172a45;
+    }
+
+    .boarder {
+      border-color: #64ffda;
+    }
+
+    .white {
+      color: #64ffda;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #0a192f;">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        <img src="static/images/my_logo.png" height="50" width="135" class=logo>
+
+      </ul>
+    </div>
+
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-item nav-link active" href="#" style="font-family:Calibre;"><span style='color: #64ffda;'>01.</span> &nbsp; About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link active" href="#" style="font-family:Calibre;"><span style='color: #64ffda;'>02.</span> &nbsp; Experience </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link active" href="#" style="font-family:Calibre;"><span style='color: #64ffda;'>03.</span> &nbsp; Projects </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link active" href="#" style="font-family:Calibre;"><span style='color: #64ffda;'>04.</span> &nbsp; Contact &nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <input onclick=" window.open('static/data/Jacob-Lebowitz-Resume.pdf'); return true;" type="submit" class="btn btn-primary background white boarder" value="Resume" />
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <p style="color:#64ffda; font-family:Calibre;"> Hi, &nbsp;my &nbsp;name&nbsp; is </p>
+    <h1 style="color:#e6f1ff; font-family:Calibre; font-size:600%;"> Jacob Lebowitz. </h1>
+    <h1 style="color:#a8b2d1; font-family:Calibre;font-size:400%;"> I use data to solve business problems. </h1>
+    <br>
+    <p style="color:#a8b2d1;"> I'm a software engineer studying computer science <br>at Kent State University specializing in AI/ML to use data to <br>solve the hardest (and most fun) business problems.
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="submit" class="btn btn-primary background white boarder" value="Get In Touch" />
+  </div>
+
+
+    <!-- JavaScript required by bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
